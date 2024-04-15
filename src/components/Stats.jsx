@@ -7,7 +7,7 @@ const Stats = () => {
       <Navbar/>
       <div className="tableContainer">
         <h2>Points Table</h2>
-        <img src='/assets/PointsTable.png' alt='points table'/>
+        <img src='public/assets/PointsTable.png' alt='points table'/>
       </div>
       <div className="highestTable">
         <h2>Most Runs</h2>

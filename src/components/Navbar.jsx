@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <div className='menu-box'>
         <ul className={`menu ${isActive ? 'active' : ''}`}>
-            <img onClick={toggleMenu} className = 'close' src="/assets/close.png" alt="" />
+            <img onClick={toggleMenu} className = 'close' src="public/assets/close.png" alt="" />
             <Link to= '/' className='linkStyle'><li>Home</li></Link>
             <Link to= '/teams' className='linkStyle'> <li>Teams</li></Link> 
             <Link to= '/schedule' className='linkStyle'><li>Schedule</li></Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       
       <div className="hamburger" onClick={toggleMenu}>
-          <img src="/assets/burger-menu.png" alt="" />
+          <img src="public/assets/burger-menu.png" alt="" />
       </div>
       
     </div>

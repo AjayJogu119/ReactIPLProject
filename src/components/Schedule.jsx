@@ -6,8 +6,8 @@ const Schedule = () => {
     <div>
         <Navbar/>
         <div className="scheduleContainer">
-            <img src='/assets/ipl schedule-images-1.jpg' alt='ipl schedule page 1'/>
-            <img src='/assets/ipl schedule-images-2.jpg' alt='ipl schedule page 2'/>
+            <img src='public/assets/ipl schedule-images-1.jpg' alt='ipl schedule page 1'/>
+            <img src='public/assets/ipl schedule-images-2.jpg' alt='ipl schedule page 2'/>
         </div>
         
     </div>
