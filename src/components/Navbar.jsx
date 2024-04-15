@@ -11,7 +11,7 @@ const Navbar = () => {
     <div>
     <div className="container">
       <div className="img-box">
-        <img src="/assets/ipl-logo.png" alt="" />
+        <img src="public/assets/ipl-logo.png" alt="" />
       </div>
       <div className='menu-box'>
         <ul className={`menu ${isActive ? 'active' : ''}`}>
