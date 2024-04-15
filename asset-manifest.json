@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AjayJogu119/ReactIPLProject.git/static/css/main.473fb030.css",
-    "main.js": "/AjayJogu119/ReactIPLProject.git/static/js/main.71347677.js",
-    "static/js/453.bf5002b9.chunk.js": "/AjayJogu119/ReactIPLProject.git/static/js/453.bf5002b9.chunk.js",
-    "index.html": "/AjayJogu119/ReactIPLProject.git/index.html",
-    "main.473fb030.css.map": "/AjayJogu119/ReactIPLProject.git/static/css/main.473fb030.css.map",
-    "main.71347677.js.map": "/AjayJogu119/ReactIPLProject.git/static/js/main.71347677.js.map",
-    "453.bf5002b9.chunk.js.map": "/AjayJogu119/ReactIPLProject.git/static/js/453.bf5002b9.chunk.js.map"
+    "main.css": "/ReactIPLProject/static/css/main.473fb030.css",
+    "main.js": "/ReactIPLProject/static/js/main.5a2c5884.js",
+    "static/js/453.bf5002b9.chunk.js": "/ReactIPLProject/static/js/453.bf5002b9.chunk.js",
+    "index.html": "/ReactIPLProject/index.html",
+    "main.473fb030.css.map": "/ReactIPLProject/static/css/main.473fb030.css.map",
+    "main.5a2c5884.js.map": "/ReactIPLProject/static/js/main.5a2c5884.js.map",
+    "453.bf5002b9.chunk.js.map": "/ReactIPLProject/static/js/453.bf5002b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.473fb030.css",
-    "static/js/main.71347677.js"
+    "static/js/main.5a2c5884.js"
   ]
 }
