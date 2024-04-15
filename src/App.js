@@ -11,7 +11,7 @@ import Teams1 from './components/Teams1';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/ReactIPLProject">
       <Routes>
         <Route path='/' element = {<LandingPage/>}/>
         <Route path='/teams' element = {<Teams1/>}/>
