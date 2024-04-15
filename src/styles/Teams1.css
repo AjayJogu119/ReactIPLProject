@@ -1,0 +1,173 @@
+/*Teams home page*/
+
+
+.teamscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    gap: 10px;
+  }
+  .teamscard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    min-width: 280px;
+    min-height: 250px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .teamscard .linkStyle .teamlogo{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .teamscard .teamlogo img{
+    width: 150px;
+  }
+  
+  .teamscard .teamDetails h3{
+    color: #fff;
+  }
+  .teamscard .teamDetails h2{
+    display: none;
+  }
+  .teamscard .teamDetails span{
+    display: none;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .linkStyle{
+    text-decoration: none;
+  }
+  .teamscard .teamDetails p{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bolder;
+  }
+  .teamscard:hover .teamDetails p,
+  .teamscard:hover .teamDetails span{
+    display: block;
+    color: #000;
+  }
+  .teamscard:nth-child(1){
+    background-color: rgb(38, 51, 129);
+  }
+  .teamscard:nth-child(1) .teamlogo {
+    background-color: rgb(224, 224, 4);
+  }
+  .teamscard:nth-child(2){
+    background-color:  rgb(175, 27, 27);
+  }
+  .teamscard:nth-child(2) .teamlogo {
+    background-color: rgb(38, 51, 129);
+  }
+  .teamscard:nth-child(3){
+    background-color:  rgb(231, 204, 83);
+  }
+  .teamscard:nth-child(3) .teamlogo {
+    background-color: rgb(5, 35, 96);
+  }
+  .teamscard:nth-child(4){
+    background-color:  rgb(65, 11, 119);
+  }
+  .teamscard:nth-child(4) .teamlogo {
+    background-color:  rgb(195, 160, 5);
+  }
+  .teamscard:nth-child(5){
+    background-color:  rgb(5, 59, 195);
+  }
+  .teamscard:nth-child(5) .teamlogo {
+    background-color:  rgb(79, 166, 242);
+  }
+  .teamscard:nth-child(6){
+    background-color:  rgb(195, 119, 5);
+  }
+  .teamscard:nth-child(6) .teamlogo {
+    background-color:  rgb(26, 41, 242);
+  }
+  .teamscard:nth-child(7){
+    background-color:  rgb(227, 20, 20);
+  }
+  .teamscard:nth-child(7) .teamlogo {
+    background-color:  rgb(251, 211, 117);
+  }
+  .teamscard:nth-child(8){
+    background-color:  rgb(65, 5, 195);
+  }
+  .teamscard:nth-child(8) .teamlogo {
+    background-color:  rgb(155, 161, 244);
+  }
+  .teamscard:nth-child(9){
+    background-color:  rgb(14, 9, 0);
+  }
+  .teamscard:nth-child(9) .teamlogo {
+    background-color:  rgb(174, 4, 4);
+  }
+  .teamscard:nth-child(10){
+    background-color:  rgb(0, 0, 0);
+  }
+  .teamscard:nth-child(10) .teamlogo {
+    background-color:  rgb(242, 109, 26);
+  }
+  
+  .teamscard:nth-child(1):hover,
+  .teamscard:nth-child(3):hover,
+  .teamscard:nth-child(4):hover,
+  .teamscard:nth-child(6):hover,
+  .teamscard:nth-child(8):hover,
+  .teamscard:nth-child(10):hover{
+    background-color: rgb(180, 178, 177);
+  }
+  .teamscard:nth-child(1):hover h3,
+  .teamscard:nth-child(3):hover h3,
+  .teamscard:nth-child(4):hover h3,
+  .teamscard:nth-child(6):hover h3,
+  .teamscard:nth-child(8):hover h3,
+  .teamscard:nth-child(10):hover h3{
+    display: none;
+  }
+  .teamscard:nth-child(1):hover .teamDetails h2,
+  .teamscard:nth-child(3):hover .teamDetails h2,
+  .teamscard:nth-child(4):hover .teamDetails h2,
+  .teamscard:nth-child(6):hover .teamDetails h2,
+  .teamscard:nth-child(8):hover .teamDetails h2,
+  .teamscard:nth-child(10):hover .teamDetails h2{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    color: #000;
+  }
+  .teamscard:nth-child(1):hover img,
+  .teamscard:nth-child(3):hover img,
+  .teamscard:nth-child(4):hover img,
+  .teamscard:nth-child(6):hover img,
+  .teamscard:nth-child(8):hover img,
+  .teamscard:nth-child(10):hover img{
+    position: absolute;
+    width: 70px;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .teamscard:nth-child(1):hover .teamlogo,
+  .teamscard:nth-child(3):hover .teamlogo,
+  .teamscard:nth-child(4):hover .teamlogo,
+  .teamscard:nth-child(6):hover .teamlogo,
+  .teamscard:nth-child(8):hover .teamlogo,
+  .teamscard:nth-child(10):hover .teamlogo {
+    background-color: transparent; 
+  }
+  
+  

@@ -1,0 +1,86 @@
+.statspage{
+    background-color: rgb(185, 225, 247);
+    width: 100%;
+    height: 100%;
+}
+.tableContainer{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.tableContainer img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.highestTable{
+    width: 100%;
+    padding: 30px;
+}
+.highestTable h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.highestTable table{
+    width: 100%;
+}
+.highestTable table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.highestTable th,td{
+    padding: 15px 0;
+}
+.highestTable tr:nth-child(even) {
+    background-color: #e3e6e6;
+}
+.highestTable tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.highestTable tr:nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+}.highestTable tr:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #abc2f9;
+}
+@media (min-width:451px) and (max-width:900px){
+    .statspage{
+        height: 100vh;
+    }
+    .tableContainer {
+        padding: 10px; 
+      }
+      .highestTable {
+        padding: 10px; 
+      }
+      .highestTable h2 {
+        font-size: 16px; 
+      }
+      .highestTable th,
+      .highestTable td {
+        padding: 10px 0;
+        font-size: 14px; 
+      }
+}
+@media(max-width:450px){
+    .tableContainer {
+        padding: 8px; 
+      }
+      .highestTable {
+        padding: 8px; 
+      }
+      .highestTable h2 {
+        font-size: 14px; 
+      }
+      .highestTable th,
+      .highestTable td {
+        padding: 8px 0;
+        font-size: 12px; 
+      }
+      .statspage{
+        height: 100%;
+    }
+}

@@ -1,0 +1,127 @@
+.homecontainer{
+    background-image: url('https://media.istockphoto.com/id/1502846052/photo/textured-soccer-game-field-with-neon-fog-center-midfield.jpg?s=612x612&w=0&k=20&c=LPSo6ps1NfZ_xviL0tmhnnrcLjjFXAQhsYr3qAOfviY=');
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    opacity: 1;
+}
+.iplinfo{
+width: 100%;
+padding: 30px 80px;
+}
+.iplinfo p{
+    background-color:  rgba(22, 44, 241, 0.2); 
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 5px #fff;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.iplseasons h3{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.seasoncardcontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 10px;
+}
+.seasoncardcontainer .seasoncard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 350px;
+    height: 210px;
+    background-color: #ffffff8b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    gap: 5px;
+}
+.seasoncard h2{
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.seasoncard .winner{
+    color: rgb(4, 90, 4);
+    font-size: 17px;
+    font-weight: bold;
+}
+.seasoncard .runner{
+    color: rgb(137, 4, 8);
+    font-size: 17px;
+    font-weight: bold;
+}
+.seasoncard .mvp{
+    color: rgb(14, 14, 14);
+    font-size: 17px;
+    font-weight: bold;
+}
+.seasoncard .orange{
+    color: rgb(194, 104, 1);
+    font-size: 17px;
+    font-weight: bold;
+}
+.seasoncard .purple{
+    color: purple;
+    font-size: 17px;
+    font-weight: bold;
+}
+@media(max-width:450px){
+
+.iplinfo{
+    width: 100%;
+    padding: 30px;
+    }
+    .iplinfo p{
+        background-color:  rgba(22, 44, 241, 0.2); 
+        padding: 10px;
+        border-radius: 8px;
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 0px 5px #fff;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        line-height: 25px;
+    }
+    .seasoncardcontainer .seasoncard{
+        min-width: 200px;
+        height: 280px;
+        padding: 20px 30px;
+        align-items: start;
+    }
+    .seasoncard h2{
+       font-size: 16px;
+    }
+    .seasoncard .winner{
+        font-size: 15px;
+    }
+    .seasoncard .runner{
+        font-size: 15px;
+    }
+    .seasoncard .mvp{
+        font-size: 15px;
+    }
+    .seasoncard .orange{
+        font-size: 15px;
+    }
+    .seasoncard .purple{
+        font-size: 15px;
+    }
+}

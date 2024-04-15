@@ -1,0 +1,125 @@
+.venuespage{
+    background-color: #fff;
+    width: 100%;
+    padding: 30px 60px;
+}
+.venuespageheading h2{
+    margin: 20px 0;
+    text-align: center;
+    color: #6f0505;
+}
+.venuespageheading p{
+    line-height: 25px;
+    font-size: 19.5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.venuetable{
+    width: 100%;
+}
+.venuetable table{
+    width: 100%;
+    overflow-x: hidden;
+}
+.venuetable table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.venuetable th,td{
+    padding: 15px 20px;
+    text-align: center;
+}
+.venuetable table h3{
+    font-size: 20px;
+    margin: 20px;
+}
+.venuetable table td .map{
+    width:500px;
+    height:350px;
+}
+.venuetable td:nth-child(1){
+    width: 400px;
+}
+.venuetable td:nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    color: #6f0505;
+}
+.venuetable tr:nth-child(1){
+    background-color: #053f6f;
+    color: #fff;
+}
+.venuetable table p{
+    width: 100%;
+}
+@media(min-width:451px) and (max-width:900px){
+    .venuetable th,td{
+        padding: 15px 10px;
+        text-align: center;
+    }
+    .venuetable table h3{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .venuetable td:nth-child(1){
+        width: 200px;
+        padding: 10px;
+    }
+    .venuetable td:nth-child(2){
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f0505;
+    }
+    
+    .venuetable table td .map{
+        width:180px;
+        height:250px;
+    }
+    .venuetable table p{
+        width: 100%;
+        text-align: start;
+        padding: 14px;
+    }
+}
+@media(max-width:450px){
+    .venuespageheading p{
+        font-size: 15.5px;
+    }
+    .venuespage{
+        padding: 10px 20px;
+    }
+    .venuetable th,td{
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .venuetable th{
+        font-size: 10px;
+    }
+    .venuetable table h3{
+        font-size: 11px;
+        margin: 5px;
+    }
+    .venuetable td:nth-child(1){
+        width: 100px;
+        padding: 5px;
+    }
+    .venuetable td:nth-child(2){
+        font-size: 10px;
+        font-weight: 300;
+        color: #6f0505;
+    }
+    
+    .venuetable table td .map{
+        width:100px;
+        height: 100px;
+    }
+    .venuetable table p{
+        width: 100%;
+        text-align: start;
+        padding: 5px;
+        font-size: 10px;
+    }
+}

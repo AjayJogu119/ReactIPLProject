@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import LandingPage from './pages/LandingPage';
+import SingleTeam from './components/SingleTeam';
+import Schedule from './components/Schedule';
+import Stats from './components/Stats';
+import Venues from './components/Venues';
+import Teams1 from './components/Teams1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element = {<LandingPage/>}/>
+        <Route path='/teams' element = {<Teams1/>}/>
+        <Route path='/teams/:TeamCode' element = {<SingleTeam/>}/>
+        <Route path='/schedule' element = {<Schedule/>}/>
+        <Route path='/stats' element = {<Stats/>}/>
+        <Route path='/venues' element = {<Venues/>}/>
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 

@@ -1,0 +1,10 @@
+.scheduleContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+.scheduleContainer img{
+    width: 100%;
+}
